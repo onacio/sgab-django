@@ -1,8 +1,8 @@
 from django.shortcuts import render
 
 # Create your views here.
-def index(requests):
-    return render(requests, 'pedidos/index.html')
+def index(request):
+    return render(request, 'pedidos/index.html')
 
-def novo(requests):
-    return render(requests, 'pedidos/novo.html')
+def novo(request):
+    return render(request, 'pedidos/novo.html')
